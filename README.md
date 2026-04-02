@@ -35,36 +35,7 @@ guess_number.exe        # Windows
 The game runs entirely in the terminal. No graphical interface, no
 installation step — just compile and run.
 
-How to Play
 
-The game displays the valid range (1–100).
-Type a number and press Enter.
-The game responds with Too low, Too high, or Correct!
-Keep guessing until you find the secret number.
-After winning, choose y to start a new round or n to quit.
-
-Example session
-+----------------------------------+
-|    GUESS THE NUMBER  (C++20)     |
-|  Guess a number from 1 to 100!   |
-+----------------------------------+
-
---- New Game ---
-Guess a number between 1 and 100.
-
-Your guess: 50
-  v Too high! Try a lower number.
-Your guess: 25
-  ^ Too low! Try a higher number.
-Your guess: 37
-  * Correct! You guessed the number 37!
-
-=== Round Results ===
-Attempts: 3
-Your guesses: 50 25 37
-Rating: Outstanding! You're a natural!
-
-Play again? (y/n):
 
 Modern C++ Features Used
 The source code is heavily commented to explain why each modern feature is
@@ -75,6 +46,3 @@ Project Structure
 guess_number.cpp   ← entire source, one self-contained file
 README.md          ← this file
 
-License
-This project is released into the public domain. Use it however you like —
-study it, modify it, or incorporate it into your own code.
